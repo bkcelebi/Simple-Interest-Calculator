@@ -6,20 +6,27 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
 }
 
 h1{
     color:grey;
     font-family: verdana;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .maindiv{
     background-color: white;
     color: black;
-    width: 300px;
+    width: 500px;
     padding: 20px;
     border-radius: 20px;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+}
+
+.child{
+    width: 300px;
+    padding-left: 20%;
+    padding-bottom: 5%;
 }
